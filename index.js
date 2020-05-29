@@ -93,7 +93,7 @@ function temperatureInF(temp,unit) {
     else if(unit === "C"){
       let fahrenheit = temp*9/5 + 32;
       fahrenheit = Math.round(fahrenheit);
-      return console.log(`${fahrenheit} F`)
+      return `${fahrenheit} F`
     }
 
   
@@ -101,7 +101,7 @@ function temperatureInF(temp,unit) {
   /* code here */
 }
 
-console.log(temperatureInF(29,"C"));
+console.log(temperatureInF(22,"C"));
 
 /**
  * ### Challenge `makePersonObject`
@@ -162,7 +162,7 @@ function getName(identification, nombre, correo) {
 
     myName = person.name;
   
-    return console.log(`Hello, my name is ${myName}`)
+    return `Hello, my name is ${myName}`
   
   
   
